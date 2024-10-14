@@ -1,0 +1,34 @@
+baseURL: https://czechcyberteam.github.io/
+languageCode: en-us
+title: Czech Cyber Team Blog
+copyright: "CzechCyberTeam"
+theme: ["PaperMod"]
+
+enableInlineShortcodes: true
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+enableEmoji: true
+pygmentsUseClasses: true
+
+assets.favicon: "static/favicon.ico"
+label.icon: "static/apple-touch-icon.png"
+
+params:
+  ShowFullTextinRSS: true
+  ShowCodeCopyButtons: true
+  keywords: ["Cybersecurity", "CTF", "ECSC", "Kybersoutěž", "CzechCyberTeam"]
+  defaultTheme: dark
+  homeInfoParams:
+    Title: Ahoj!
+    Content: We are The Czech Cyber Team. Young people with a passion for cybersecurity from Czechia. We are gathered around the Czech national [ECSC](https://ecsc.eu/) qualifier [Kybersoutěž](https://kybersoutez.cz). The Czech National Team going to ECSC is assembled from our members.
+  socialIcons: # optional
+    - name: "twitter"
+      url: "https://twitter.com/CzechCyberTeam"
+  ShowToc: true
+
+outputs:
+  home:
+    - HTML
+    - RSS
