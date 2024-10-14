@@ -1,12 +1,13 @@
 ---
-title: "FAUST CTF 2024 Todo List Writeup"
+title: "FAUST CTF 2024 - Todo List Writeup"
 date: 2024-10-11T06:00:00+02:00
 author: "Greenscreener"
 tags: [ "writeups" ]
 ---
-I participated in this years FAUST CTF, alongside the Czech ECSC team, incognito
-with a fake team name: "Team Calabria". I managed to score first blood on one of
-the services, this is the writeup.
+> We participated in FAUST CTF 2024 under the pseudonym "TeamCalabria"
+(unfortunately stolen on CTFTime by some CTFTime point hoarders).
+Our member _Greenscreener_ managed to first blood the "Todo List" challenge.
+You can also read the writeup on [his blog](https://grsc.cz/blog/faust2024-todo-list/)
 
 An extremely feature-rich service written in C# (like srsly, why would you
 implement 2FA for an A/D service and then never use it?). We identified two

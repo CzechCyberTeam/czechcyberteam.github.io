@@ -1,9 +1,12 @@
 ---
-title: "FAUST CTF 2024 QuickR Maps Writeup"
+title: "FAUST CTF 2024 - QuickR Maps Writeup"
 date: 2024-10-11T06:00:00+02:00
 author: "Hackrrr"
 tags: [ "writeups" ]
 ---
+> We participated in FAUST CTF 2024 under the pseudonym "TeamCalabria"
+(unfortunately stolen on CTFTime by some CTFTime point hoarders).
+Our member _Hackrrr_ managed to first blood the "QuickR Maps" challenge.
 
 QuickR Maps service allows users to store and share locations on map. There are two instances hidden behind one frontend/proxy - public and private. Public instance shows all stored locations to everyone, private instace shows only locations accessible to you (that are either yours locations or locations explicitly shared with you).
 
